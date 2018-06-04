@@ -6,3 +6,9 @@
 以Centos举例<br>
 yum install python python-pip<br>
 pip install netaddr<br>
+5、使用方法<br>
+cd /root/
+wget https://raw.githubusercontent.com/zhuchunmao/mygfwlist/master/ovpn_router.py<br>
+chmod +x /root/ovpn_router.py<br>
+/root/ovpn_router.py<br>
+最终会生成一个文件/root/router
