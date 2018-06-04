@@ -2,7 +2,7 @@
 import netaddr
 import urllib2
 import sys
-content = urllib2.urlopen('https://raw.githubusercontent.com/SteamedFish/gfwiplist/master/gfwiplist.txt').readlines()
+content = urllib2.urlopen('https://raw.githubusercontent.com/zhuchunmao/mygfwlist/master/gfwiplist.txt').readlines()
 if not content:
     sys.exit(1)
 blocks = []
